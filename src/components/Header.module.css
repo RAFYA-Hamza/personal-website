@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.header p {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 36px;
+
+  margin: 0;
+  text-align: center;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.actions {
+  all: unset;
+  display: flex;
+  gap: 1rem;
+  line-height: 0;
+  text-align: center;
+}
