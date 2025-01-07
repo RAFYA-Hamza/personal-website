@@ -68,10 +68,11 @@ function Intro() {
         </div>
       </div>
       <div className={classes.intro__profile}>
-        <div className={classes.intro__pic}>
-          <img src={profilePic} alt="Profile picture" />
+        <div className={classes.intro__background}>
+          <div className={classes.intro__pic}>
+            <img src={profilePic} alt="Profile picture" />
+          </div>
         </div>
-        <div className={classes.intro__background}></div>
       </div>
     </section>
   );
