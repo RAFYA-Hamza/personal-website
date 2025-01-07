@@ -1,7 +1,10 @@
 import GithubIcon from "./icons/GithubIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import TwitterIcon from "./icons/TwitterIcon";
+import profilePic from "../assets/images/picture_profile.jpg";
+
 import classes from "./Intro.module.css";
+
 import IconButton from "./UI/IconButton";
 
 function Intro() {
@@ -64,9 +67,11 @@ function Intro() {
           </IconButton>
         </div>
       </div>
-      <div className="intro__profile">
-        <img className="intro__pic" src="" alt="" />
-        <div className="intro__background"></div>
+      <div className={classes.intro__profile}>
+        <div className={classes.intro__pic}>
+          <img src={profilePic} alt="Profile picture" />
+        </div>
+        <div className={classes.intro__background}></div>
       </div>
     </section>
   );

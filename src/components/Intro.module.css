@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .intro__content {
@@ -36,3 +36,45 @@
   display: flex;
   gap: 0.25rem;
 }
+
+.intro__profile {
+  /* height: auto;
+  min-width: 20rem; */
+  width: 100%;
+  position: relative;
+}
+
+.intro__pic {
+  width: 50%;
+  padding: 0.5rem;
+
+  background-color: var(--gray-default);
+
+  position: relative;
+  top: 0;
+  left: 12rem;
+  z-index: 2;
+}
+
+.intro__pic img {
+  width: 100%; /* Make the image scale to fit the container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.intro__background {
+  width: 50%;
+  height: 280px;
+
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+
+  z-index: 0;
+
+  padding: 0.5rem;
+  background-color: var(--gray-default);
+
+  background-color: var(--gray-200);
+}
+
+/* 0.04rem */
