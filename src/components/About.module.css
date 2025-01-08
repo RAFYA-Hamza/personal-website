@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about__header {
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 3rem;
+}
+
+.about__profile {
+}
+
+.about__profile-background {
+}
+
+.about__profile-pic {
+}
+
+.about__content {
+}
