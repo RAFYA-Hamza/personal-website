@@ -14,7 +14,16 @@
 
 .skills ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
-  gap: auto;
+  gap: 2rem 5rem;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--gray-600);
 }

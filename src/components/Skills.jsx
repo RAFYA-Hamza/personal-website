@@ -20,7 +20,7 @@ function Skills() {
         {SKILLS_ICONS.map((iconData) => (
           <li key={iconData.title}>
             <div>{iconData.icon}</div>
-            <p>{iconData.title}</p>
+            <p className="body1 normal">{iconData.title}</p>
           </li>
         ))}
       </ul>
