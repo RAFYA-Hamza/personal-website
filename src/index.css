@@ -106,6 +106,10 @@ h3 {
   font-weight: 500;
 }
 
+.normal {
+  font-weight: 400;
+}
+
 .underline {
   text-decoration: underline;
 }
