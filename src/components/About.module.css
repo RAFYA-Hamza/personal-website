@@ -22,18 +22,12 @@
 
 .about__profile {
   width: 90%;
-  position: relative;
 }
 
 .about__profile-background {
-  width: 23vw;
-  height: 29.5vw;
+  max-width: 25rem;
 
-  max-width: 18rem;
-  max-height: 23rem;
-
-  position: absolute;
-  left: 0;
+  position: relative;
   top: 2.5rem;
 
   border: 0.5rem solid var(--gray-default);
@@ -41,27 +35,16 @@
 }
 
 .about__profile-pic {
-  width: 90%;
-
-  max-width: 18rem;
-
-  position: absolute;
-  top: 0;
-  right: -2.5rem;
-  z-index: 1;
-  padding: 0.5rem;
-  margin-top: -2.5rem;
-
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -2.5rem;
+  left: 2.5rem;
   background-color: var(--gray-default);
 }
 
-.about__profile-pic img {
-  width: 100%;
-  height: auto;
-}
-
 .about__content,
-.about__content-body {
+.about__content ul {
   width: 100%;
 
   display: flex;

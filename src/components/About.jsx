@@ -38,14 +38,13 @@ function About() {
             Curious about me? Here you have it:
           </h3>
 
-          <div className={classes["about__content-body"]}>
-            <p className="body2">{ABOUT_ME[0]}</p>
-            <p className="body2">{ABOUT_ME[1]}</p>
-            <p className="body2">{ABOUT_ME[2]}</p>
-            <p className="body2">{ABOUT_ME[3]}</p>
-            <p className="body2">{ABOUT_ME[4]}</p>
-            <p className="body2">{ABOUT_ME[5]}</p>
-          </div>
+          <ul>
+            {ABOUT_ME.map((text) => (
+              <li className="body2" key={text}>
+                {text}
+              </li>
+            ))}
+          </ul>
 
           <div className={classes["about__content-footer"]}>
             <span className="body2">
