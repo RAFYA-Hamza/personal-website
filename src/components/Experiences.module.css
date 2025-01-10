@@ -1,0 +1,53 @@
+.experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 6rem 5rem;
+
+  background-color: var(--gray-50);
+}
+
+.experiences span {
+  color: var(--gray-600);
+  margin-top: -2rem;
+}
+
+.experiences__card {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.25rem;
+
+  max-width: 56rem;
+
+  padding: 2rem;
+  background-color: var(--gray-default);
+}
+
+.experiences__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experiences__header-image {
+  max-width: 2rem;
+  height: auto;
+}
+
+.experiences__header-image img {
+  width: 90%;
+  height: auto;
+}
+
+.experiences__header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-self: start;
+}
+
+.experiences__header-date {
+  align-self: end;
+}
