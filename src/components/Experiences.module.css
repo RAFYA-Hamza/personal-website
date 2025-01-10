@@ -20,20 +20,33 @@
   gap: 1.25rem;
 
   max-width: 56rem;
+  border-radius: 12px;
 
   padding: 2rem;
   background-color: var(--gray-default);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .experiences__header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: end;
+}
+
+.experiences__header-content {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .experiences__header-image {
-  max-width: 2rem;
+  max-width: 2.5rem;
   height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .experiences__header-image img {
@@ -41,13 +54,17 @@
   height: auto;
 }
 
-.experiences__header-content {
+.experiences__header-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  justify-self: start;
+  gap: 0.5rem;
 }
 
-.experiences__header-date {
-  align-self: end;
+.experiences__content p {
+  line-height: 1.75rem;
+}
+
+.experiences__content p:nth-child(n + 2) {
+  margin-left: 1rem;
 }
