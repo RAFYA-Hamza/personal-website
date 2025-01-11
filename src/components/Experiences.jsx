@@ -71,6 +71,19 @@ function Experiences() {
           vehicle.
         </p>
       </Experience>
+
+      <Experience
+        classes={classes}
+        image={estImg}
+        name="Higher School of Technology"
+        title="End-of-year Internship"
+        date="April - May 2020"
+      >
+        <p className="body2">
+          Modeling and simulation of Hybrid Wind and Solar Electric Systems
+          using power converters (Inverter, Rectifier and Chopper).
+        </p>
+      </Experience>
     </section>
   );
 }
