@@ -2,21 +2,18 @@ import altenImg from "../assets/images/alten-logo.png";
 import estImg from "../assets/images/est-logo.jpeg";
 import capgeminiImg from "../assets/images/capgemini-logo.jpeg";
 
-import Tag from "./UI/Tag";
 import Experience from "./Experience";
 
 import classes from "./Experiences.module.css";
+import HeaderSection from "./UI/HeaderSection";
 
 function Experiences() {
   return (
     <section className={classes.experiences}>
-      <Tag>
-        <p>Experience</p>
-      </Tag>
-
-      <span>
-        <p>Here is a quick summary of my most recent experiences:</p>
-      </span>
+      <HeaderSection
+        title="Experience"
+        description="Here is a quick summary of my most recent experiences:"
+      />
 
       <Experience
         classes={classes}

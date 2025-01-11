@@ -1,20 +1,15 @@
-import Tag from "./UI/Tag";
-
 import classes from "./Skills.module.css";
 
 import { SKILLS_ICONS } from "../assets/icons/skills-icons.jsx";
+import HeaderSection from "./UI/HeaderSection.jsx";
 
 function Skills() {
   return (
     <section className={classes.skills}>
-      <Tag>
-        <p className="body3 medium">Skills</p>
-      </Tag>
-      <span>
-        <p className="subtitle normal">
-          The skills, tools and technologies I am really good at:
-        </p>
-      </span>
+      <HeaderSection
+        title="Skills"
+        description="The skills, tools and technologies I am really good at:"
+      />
 
       <ul>
         {SKILLS_ICONS.map((iconData) => (
