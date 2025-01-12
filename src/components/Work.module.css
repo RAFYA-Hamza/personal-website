@@ -88,3 +88,9 @@
   height: 2rem;
   width: 2rem;
 }
+
+.work-card__content-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
