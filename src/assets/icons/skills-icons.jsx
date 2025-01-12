@@ -544,4 +544,114 @@ export const SKILLS_ICONS = [
       </svg>
     ),
   },
+  {
+    title: "HTML DOM",
+    icon: (
+      <svg
+        width="64px"
+        height="64px"
+        viewBox="0 0 73 73"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        fill="#000000"
+      >
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <title>fundamentals/javascript/dom</title>
+          <desc>Created with Sketch.</desc> <defs> </defs>
+          <g
+            id="fundamentals/javascript/dom"
+            stroke="none"
+            strokeWidth="1"
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              id="Bitmap"
+              transform="translate(2.000000, 2.000000)"
+              fillRule="nonzero"
+            >
+              <rect
+                id="Mask"
+                stroke="#363644"
+                strokeWidth="2"
+                fill="#FFFFFF"
+                x="-1"
+                y="-1"
+                width="71"
+                height="71"
+                rx="14"
+              ></rect>
+              <g id="diagram" transform="translate(15.000000, 17.000000)">
+                <rect
+                  id="Rectangle-path"
+                  fill="#1C1C2C"
+                  x="19"
+                  y="9"
+                  width="1"
+                  height="16"
+                ></rect>
+                <polygon
+                  id="Shape"
+                  fill="#1C1C2C"
+                  points="35 26 33.6521739 26 33.6521739 18.3846154 5.34782609 18.3846154 5.34782609 26 4 26 4 17 35 17"
+                ></polygon>
+                <path
+                  d="M4.5,35 C2.01471429,35 0,32.9852857 0,30.5 C0,28.0147143 2.01471429,26 4.5,26 C6.98528571,26 9,28.0147143 9,30.5 C9,32.9852857 6.98528571,35 4.5,35 Z"
+                  id="Shape"
+                  fill="#FF7163"
+                ></path>
+                <path
+                  d="M34.5,35 C32.0147143,35 30,32.9852857 30,30.5 C30,28.0147143 32.0147143,26 34.5,26 C36.9852857,26 39,28.0147143 39,30.5 C39,32.9852857 36.9852857,35 34.5,35 Z"
+                  id="Shape"
+                  fill="#FF7163"
+                ></path>
+                <path
+                  d="M19.5,35 C17.0147143,35 15,32.9852857 15,30.5 C15,28.0147143 17.0147143,26 19.5,26 C21.9852857,26 24,28.0147143 24,30.5 C24,32.9852857 21.9852857,35 19.5,35 Z"
+                  id="Shape"
+                  fill="#FF7163"
+                ></path>
+                <rect
+                  id="Rectangle-path"
+                  fill="#3366FF"
+                  x="15"
+                  y="0"
+                  width="9"
+                  height="9"
+                ></rect>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    ),
+  },
+  {
+    title: "BEM Methodology",
+    icon: (
+      <svg
+        fill="#000000"
+        width="64px"
+        height="64px"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M5,5 L19,5 L19,4.5 C19,3.67157288 18.3284271,3 17.5,3 L6.5,3 C5.67157288,3 5,3.67157288 5,4.5 L5,5 Z M4,5.5 L4,4.5 C4,3.11928813 5.11928813,2 6.5,2 L17.5,2 C18.8807119,2 20,3.11928813 20,4.5 L20,5.5 C20,5.77614237 19.7761424,6 19.5,6 L4.5,6 C4.22385763,6 4,5.77614237 4,5.5 Z M4,10.5 L4,7.5 C4,7.22385763 4.22385763,7 4.5,7 L19.5,7 C19.7761424,7 20,7.22385763 20,7.5 L20,10.5 C20,10.7761424 19.7761424,11 19.5,11 L4.5,11 C4.22385763,11 4,10.7761424 4,10.5 Z M5,10 L19,10 L19,8 L5,8 L5,10 Z M6,15.5 L6,12.5 C6,12.2238576 6.22385763,12 6.5,12 L21.5,12 C21.7761424,12 22,12.2238576 22,12.5 L22,15.5 C22,15.7761424 21.7761424,16 21.5,16 L6.5,16 C6.22385763,16 6,15.7761424 6,15.5 Z M7,15 L21,15 L21,13 L7,13 L7,15 Z M4,18.5 L4,17.5 C4,17.2238576 4.22385763,17 4.5,17 L19.5,17 C19.7761424,17 20,17.2238576 20,17.5 L20,18.5 C20,19.8807119 18.8807119,21 17.5,21 L6.5,21 C5.11928813,21 4,19.8807119 4,18.5 Z M5,18 L5,18.5 C5,19.3284271 5.67157288,20 6.5,20 L17.5,20 C18.3284271,20 19,19.3284271 19,18.5 L19,18 L5,18 Z"></path>{" "}
+        </g>
+      </svg>
+    ),
+  },
 ];

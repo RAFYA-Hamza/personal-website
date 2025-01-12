@@ -12,7 +12,7 @@ function Skills() {
       />
 
       <ul>
-        {SKILLS_ICONS.map((iconData) => (
+        {SKILLS_ICONS.slice(0, 14).map((iconData) => (
           <li key={iconData.title}>
             <div>{iconData.icon}</div>
             <p className="body1 normal">{iconData.title}</p>
