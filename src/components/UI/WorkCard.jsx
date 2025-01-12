@@ -3,7 +3,15 @@ import IconButton from "./IconButton";
 import GithubIcon from "../icons/GithubIcon";
 import { SKILLS_ICONS } from "../../assets/icons/skills-icons";
 
-function WorkCard({ image, title, type, specificSkills, onSelect, classes }) {
+function WorkCard({
+  image,
+  title,
+  type,
+  specificSkills,
+  onShowCodeProject,
+  onShowProject,
+  classes,
+}) {
   return (
     <div className={classes["work-card"]}>
       <div className={classes["work-card__image"]}>
@@ -30,10 +38,10 @@ function WorkCard({ image, title, type, specificSkills, onSelect, classes }) {
         </div>
 
         <div className={classes["work-card__content-actions"]}>
-          <IconButton>
+          <IconButton onClick={onShowCodeProject}>
             <GithubIcon />
           </IconButton>
-          <button className="button" onClick={onSelect}>
+          <button className="button" onClick={onShowProject}>
             Go to the {title}
           </button>
         </div>

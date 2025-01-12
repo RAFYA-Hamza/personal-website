@@ -1,5 +1,9 @@
-function IconButton({ children }) {
-  return <button className="icon-button">{children}</button>;
+function IconButton({ onClick, children }) {
+  return (
+    <button onClick={onClick} className="icon-button">
+      {children}
+    </button>
+  );
 }
 
 export default IconButton;

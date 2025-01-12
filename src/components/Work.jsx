@@ -6,8 +6,6 @@ import classes from "./Work.module.css";
 import WorkCard from "./UI/WorkCard";
 
 function Work() {
-  //   const specificSkills = [0, 1, 2, 13, 14, 15];
-
   function handleClick(url) {
     window.open(url, "_blank");
   }
@@ -20,14 +18,17 @@ function Work() {
       />
 
       <WorkCard
+        classes={classes}
         image={project1Img}
         title="MarketiFy"
         type="Website"
         specificSkills={[0, 1, 2, 13, 14, 15]}
-        onSelect={() =>
+        onShowProject={() =>
           handleClick("https://rafya-hamza.github.io/marketify-website/")
         }
-        classes={classes}
+        onShowCodeProject={() =>
+          handleClick("https://github.com/RAFYA-Hamza/marketify-website")
+        }
       />
     </section>
   );
