@@ -1,4 +1,5 @@
 import project1Img from "../assets/images/project1.png";
+import project2Img from "../assets/images/project2.png";
 
 import HeaderSection from "./UI/HeaderSection";
 import classes from "./Work.module.css";
@@ -28,6 +29,20 @@ function Work() {
         }
         onShowCodeProject={() =>
           handleClick("https://github.com/RAFYA-Hamza/marketify-website")
+        }
+      />
+
+      <WorkCard
+        classes={classes}
+        image={project2Img}
+        title="TodoList"
+        type="Website"
+        specificSkills={[0, 1, 2, 13, 14, 15]}
+        onShowProject={() =>
+          handleClick("https://rafya-hamza.github.io/marketify-website/")
+        }
+        onShowCodeProject={() =>
+          handleClick("https://github.com/RAFYA-Hamza/to-do-list")
         }
       />
     </section>
