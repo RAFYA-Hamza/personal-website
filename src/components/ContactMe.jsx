@@ -122,7 +122,7 @@ function ContactMe() {
       </div>
 
       <div className={classes.contact__social}>
-        <p>You may also find me on these platforms!</p>
+        <p className="body2">You may also find me on these platforms!</p>
         <div>
           <IconButton>
             <GithubIcon />
