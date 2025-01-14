@@ -192,3 +192,8 @@ h3 {
 .button:active {
   background-color: var(--gray-800);
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
