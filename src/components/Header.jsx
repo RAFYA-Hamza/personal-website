@@ -11,17 +11,22 @@ function Header({ theme, onSelect }) {
       <nav>
         <ul>
           <li>
-            <a className={classLink} href="">
+            <a className={classLink} href="#about">
               About
             </a>
           </li>
           <li>
-            <a className={classLink} href="">
+            <a className={classLink} href="#experience">
+              Experience
+            </a>
+          </li>
+          <li>
+            <a className={classLink} href="#work">
               Work
             </a>
           </li>
           <li>
-            <a className={classLink} href="">
+            <a className={classLink} href="#contact">
               Contact
             </a>
           </li>

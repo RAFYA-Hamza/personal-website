@@ -9,7 +9,7 @@ import HeaderSection from "./UI/HeaderSection";
 
 function Experiences() {
   return (
-    <section className={classes.experiences}>
+    <section id="experience" className={classes.experiences}>
       <HeaderSection
         title="Experience"
         description="Here is a quick summary of my most recent experiences:"

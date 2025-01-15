@@ -12,7 +12,7 @@ function Work() {
   }
 
   return (
-    <section className={classes.work}>
+    <section id="work" className={classes.work}>
       <HeaderSection
         title="Work"
         description="Some of the projects I have worked on:"

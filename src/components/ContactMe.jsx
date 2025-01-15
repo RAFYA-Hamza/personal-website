@@ -21,7 +21,7 @@ function ContactMe() {
     }
   }
   return (
-    <section className={classes.contact}>
+    <section id="contact" className={classes.contact}>
       <HeaderSection
         title="Get in touch"
         description="What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect."

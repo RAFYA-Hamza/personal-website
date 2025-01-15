@@ -15,7 +15,7 @@ const ABOUT_ME = [
 
 function About() {
   return (
-    <section className={classes.about}>
+    <section id="about" className={classes.about}>
       <div className={classes.about__header}>
         <Tag>
           <p className="body3 medium">About me</p>

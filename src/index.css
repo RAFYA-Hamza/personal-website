@@ -30,8 +30,8 @@
   --gray-default: #030712;
 }
 
-svg {
-  color: var(--gray-600);
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -47,6 +47,10 @@ body {
   box-sizing: content-box;
 
   background-color: var(--gray-default);
+}
+
+svg {
+  color: var(--gray-600);
 }
 
 a {
