@@ -30,7 +30,6 @@
   position: relative;
   top: 2.5rem;
 
-  border: 0.5rem solid var(--gray-default);
   background-color: var(--gray-200);
 }
 
@@ -40,7 +39,7 @@
   position: relative;
   top: -2.5rem;
   left: 2.5rem;
-  background-color: var(--gray-default);
+  border: 0.5rem solid var(--gray-default);
 }
 
 .about__content,

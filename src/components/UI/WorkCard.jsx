@@ -22,7 +22,9 @@ function WorkCard({
         <h3>{title}</h3>
         <div className={classes["work-card__content-type"]}>
           <p>Worked on</p>
-          <Tag>{type}</Tag>
+          <Tag>
+            <p>{type}</p>
+          </Tag>
         </div>
 
         <div className={classes["work-card__content-tech"]}>

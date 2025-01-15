@@ -26,7 +26,25 @@
   --gray-800: #1f2937;
   --gray-900: #111827;
   --gray-950: #030712;
+
+  /* --gray-950: #ffffff;
+  --gray-900: #f9fafb;
+  --gray-800: #f3f4f6;
+  --gray-700: #e5e7eb;
+  --gray-600: #d1d5db;
+  --gray-500: #9ca3af;
+  --gray-400: #6b7280;
+  --gray-300: #4b5563;
+  --gray-200: #374151;
+  --gray-100: #1f2937;
+  --gray-50: #111827;
+  --gray-default: #030712; */
+
   --color-emerald: #10b981;
+}
+
+svg {
+  color: var(--gray-600);
 }
 
 body {
@@ -40,6 +58,8 @@ body {
   min-height: 100vh;
 
   box-sizing: content-box;
+
+  background-color: var(--gray-default);
 }
 
 a {
@@ -57,6 +77,7 @@ h3,
 p {
   margin-block-start: 0;
   margin-block-end: 0;
+  color: var(--gray-900);
 }
 
 h1 {

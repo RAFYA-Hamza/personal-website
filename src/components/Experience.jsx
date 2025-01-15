@@ -13,11 +13,15 @@ function Experience({ image, name, date, title, children, classes }) {
             <p className="body2 semi-bold">
               <i>{name}</i>
             </p>
-            <Tag classe="subtitle semi-bold">{title}</Tag>
+            <Tag classe="subtitle semi-bold">
+              <p>{title}</p>
+            </Tag>
           </div>
         </div>
 
-        <Tag>{date}</Tag>
+        <Tag>
+          <p>{date}</p>
+        </Tag>
       </div>
       <div className={classes.experiences__content}>{children}</div>
     </div>
