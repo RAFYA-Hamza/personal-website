@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <Header onSelect={handleTheme} />
+      <Header theme={theme} onSelect={handleTheme} />
       <Intro />
       <About />
       <Skills />
