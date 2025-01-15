@@ -110,7 +110,7 @@ export const SKILLS_ICONS = [
     title: "Next.js",
     icon: (
       <svg
-        fill="#000000"
+        fill="currentColor"
         width="100px"
         height="100px"
         viewBox="0 0 32 32"
@@ -253,7 +253,7 @@ export const SKILLS_ICONS = [
     title: "Socket.io",
     icon: (
       <svg
-        fill="#000000"
+        fill="currentColor"
         width="100px"
         height="100px"
         viewBox="0 0 24 24"
@@ -636,7 +636,7 @@ export const SKILLS_ICONS = [
     title: "BEM Methodology",
     icon: (
       <svg
-        fill="#000000"
+        fill="currentColor"
         width="64px"
         height="64px"
         viewBox="0 0 24 24"
