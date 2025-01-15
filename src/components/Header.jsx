@@ -3,7 +3,7 @@ import IconButton from "./UI/IconButton";
 
 const classLink = "body2 medium link";
 
-function Header() {
+function Header({ onSelect }) {
   return (
     <header className={classes.header}>
       <p>&#60;hr/&#62;</p>
@@ -26,7 +26,7 @@ function Header() {
           </li>
         </ul>
         <div className={classes.actions}>
-          <IconButton>
+          <IconButton onClick={onSelect}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
