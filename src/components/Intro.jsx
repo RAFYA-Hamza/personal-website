@@ -8,6 +8,9 @@ import classes from "./Intro.module.css";
 import IconButton from "./UI/IconButton";
 
 function Intro() {
+  function handleClick(url) {
+    window.open(url, "_blank");
+  }
   return (
     <section className={classes.intro}>
       <div className={classes.intro__container}>
@@ -56,13 +59,19 @@ function Intro() {
           </li>
         </ul>
         <div className={classes.intro__actions}>
-          <IconButton>
+          <IconButton
+            onClick={() => handleClick("https://github.com/RAFYA-Hamza")}
+          >
             <GithubIcon />
           </IconButton>
-          <IconButton>
+          <IconButton onClick={() => handleClick("https://x.com/")}>
             <TwitterIcon />
           </IconButton>
-          <IconButton>
+          <IconButton
+            onClick={() =>
+              handleClick("https://www.linkedin.com/in/hamza-rafya-01a0011b8/")
+            }
+          >
             <LinkedinIcon />
           </IconButton>
         </div>
