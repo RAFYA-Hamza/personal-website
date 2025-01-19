@@ -6,7 +6,7 @@ import LinkedinIcon from "./icons/LinkedinIcon";
 import classes from "./ContactMe.module.css";
 import CopyIcon from "./icons/CopyIcon";
 
-function ContactMe() {
+function ContactMe({ onClickButton }) {
   async function handleCopy(text, isEmail) {
     try {
       await navigator.clipboard.writeText(text);
@@ -94,13 +94,21 @@ function ContactMe() {
       <div className={classes.contact__social}>
         <p className="body2">You may also find me on these platforms!</p>
         <div>
-          <IconButton>
+          <IconButton
+            onClick={() => onClickButton("https://github.com/RAFYA-Hamza")}
+          >
             <GithubIcon />
           </IconButton>
-          <IconButton>
+          <IconButton onClick={() => onClickButton("https://x.com/")}>
             <TwitterIcon />
           </IconButton>
-          <IconButton>
+          <IconButton
+            onClick={() =>
+              onClickButton(
+                "https://www.linkedin.com/in/hamza-rafya-01a0011b8/"
+              )
+            }
+          >
             <LinkedinIcon />
           </IconButton>
         </div>

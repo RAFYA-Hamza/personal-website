@@ -26,15 +26,19 @@ function App() {
     localStorage.setItem("theme", newTheme);
   }
 
+  function handleClick(url) {
+    window.open(url, "_blank");
+  }
+
   return (
     <>
       <Header theme={theme} onSelect={handleTheme} />
-      <Intro />
+      <Intro onClickButton={handleClick} />
       <About />
       <Skills />
       <Experiences />
       <Work />
-      <ContactMe />
+      <ContactMe onClickButton={handleClick} />
       <Footer />
     </>
   );

@@ -7,10 +7,7 @@ import classes from "./Intro.module.css";
 
 import IconButton from "./UI/IconButton";
 
-function Intro() {
-  function handleClick(url) {
-    window.open(url, "_blank");
-  }
+function Intro({ onClickButton }) {
   return (
     <section className={classes.intro}>
       <div className={classes.intro__container}>
@@ -60,16 +57,18 @@ function Intro() {
         </ul>
         <div className={classes.intro__actions}>
           <IconButton
-            onClick={() => handleClick("https://github.com/RAFYA-Hamza")}
+            onClick={() => onClickButton("https://github.com/RAFYA-Hamza")}
           >
             <GithubIcon />
           </IconButton>
-          <IconButton onClick={() => handleClick("https://x.com/")}>
+          <IconButton onClick={() => onClickButton("https://x.com/")}>
             <TwitterIcon />
           </IconButton>
           <IconButton
             onClick={() =>
-              handleClick("https://www.linkedin.com/in/hamza-rafya-01a0011b8/")
+              onClickButton(
+                "https://www.linkedin.com/in/hamza-rafya-01a0011b8/"
+              )
             }
           >
             <LinkedinIcon />
