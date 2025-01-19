@@ -2,6 +2,7 @@ import project1Img from "../assets/images/project1.png";
 import project2Img from "../assets/images/project2.png";
 import project3Img from "../assets/images/project3.png";
 import project4Img from "../assets/images/project4.png";
+import project5Img from "../assets/images/project5.png";
 
 import HeaderSection from "./UI/HeaderSection";
 import classes from "./Work.module.css";
@@ -68,6 +69,17 @@ function Work() {
         title="World Cuisine Explorer"
         type="Mobile Application"
         specificSkills={[16, 8, 11, 12, 13]}
+        onShowCodeProject={() =>
+          handleClick("https://github.com/RAFYA-Hamza/meals-app-flutter")
+        }
+      />
+
+      <WorkCard
+        classes={classes}
+        image={project5Img}
+        title="A.Driving App"
+        type="Mobile Application"
+        specificSkills={[16, 8, 11, 9, 10, 12, 13]}
         onShowCodeProject={() =>
           handleClick("https://github.com/RAFYA-Hamza/meals-app-flutter")
         }
