@@ -1,5 +1,7 @@
 import project1Img from "../assets/images/project1.png";
 import project2Img from "../assets/images/project2.png";
+import project3Img from "../assets/images/project3.png";
+import project4Img from "../assets/images/project4.png";
 
 import HeaderSection from "./UI/HeaderSection";
 import classes from "./Work.module.css";
@@ -23,7 +25,7 @@ function Work() {
         image={project1Img}
         title="MarketiFy"
         type="Website"
-        specificSkills={[0, 1, 2, 13, 14, 15]}
+        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
         onShowProject={() =>
           handleClick("https://rafya-hamza.github.io/marketify-website/")
         }
@@ -37,12 +39,37 @@ function Work() {
         image={project2Img}
         title="TodoList"
         type="Website"
-        specificSkills={[0, 1, 2, 13, 14, 15]}
+        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
         onShowProject={() =>
           handleClick("https://rafya-hamza.github.io/marketify-website/")
         }
         onShowCodeProject={() =>
           handleClick("https://github.com/RAFYA-Hamza/to-do-list")
+        }
+      />
+
+      <WorkCard
+        classes={classes}
+        image={project3Img}
+        title="ClAmazon"
+        type="Website"
+        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
+        onShowProject={() =>
+          handleClick("https://rafya-hamza.github.io/amazon-clone-website/")
+        }
+        onShowCodeProject={() =>
+          handleClick("https://github.com/RAFYA-Hamza/amazon-clone-website")
+        }
+      />
+
+      <WorkCard
+        classes={classes}
+        image={project4Img}
+        title="World Cuisine Explorer"
+        type="Mobile Application"
+        specificSkills={[16, 8, 11, 12, 13]}
+        onShowCodeProject={() =>
+          handleClick("https://github.com/RAFYA-Hamza/meals-app-flutter")
         }
       />
     </section>

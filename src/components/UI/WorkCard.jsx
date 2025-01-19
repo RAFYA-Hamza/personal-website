@@ -43,9 +43,11 @@ function WorkCard({
           <IconButton onClick={onShowCodeProject}>
             <GithubIcon />
           </IconButton>
-          <button className="button" onClick={onShowProject}>
-            Go to the {title}
-          </button>
+          {onShowProject && (
+            <button className="button" onClick={onShowProject}>
+              Go to the {title}
+            </button>
+          )}
         </div>
       </div>
     </div>
