@@ -26,9 +26,9 @@ function Work() {
               type={project.type}
               specificSkills={project.skills}
               onShowProject={
-                project.demoLink && (() => handleClick(project.codeLink))
+                project.demoLink && (() => handleClick(project.demoLink))
               }
-              onShowCodeProject={() => handleClick(project.demoLink)}
+              onShowCodeProject={() => handleClick(project.codeLink)}
             />
           </li>
         ))}
