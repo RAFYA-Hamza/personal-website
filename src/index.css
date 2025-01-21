@@ -47,6 +47,8 @@ body {
   box-sizing: content-box;
 
   background-color: var(--gray-default);
+  margin: 0;
+  padding: 0;
 }
 
 svg {
@@ -213,4 +215,32 @@ h3 {
 img {
   max-width: 100%;
   display: block;
+}
+
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .body1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

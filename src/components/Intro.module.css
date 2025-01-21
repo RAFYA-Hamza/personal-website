@@ -81,4 +81,12 @@
   height: auto;
 }
 
-/* 0.04rem */
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  .intro {
+    padding: 4rem 3rem;
+  }
+
+  .intro__container {
+    gap: 1rem;
+  }
+}
