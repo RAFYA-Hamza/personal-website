@@ -54,3 +54,19 @@ h2 {
   align-items: center;
   gap: 0.5rem;
 }
+
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  .contact {
+    padding: 4rem 3rem;
+    gap: 2rem;
+  }
+
+  .contact span {
+    margin-top: -1.5rem;
+  }
+
+  .contact__content {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}

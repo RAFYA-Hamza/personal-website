@@ -10,3 +10,9 @@
 p {
   color: var(--gray-600);
 }
+
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  .footer {
+    padding: 1.5rem;
+  }
+}

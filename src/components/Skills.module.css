@@ -28,3 +28,18 @@
   gap: 0.25rem;
   color: var(--gray-600);
 }
+
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  .skills {
+    padding: 4rem 3rem;
+    gap: 2rem;
+  }
+
+  .skills span {
+    margin-top: -1.5rem;
+  }
+
+  .skills ul {
+    gap: 1rem 3rem;
+  }
+}

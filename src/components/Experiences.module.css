@@ -68,3 +68,14 @@
 .experiences__content p:nth-child(n + 2) {
   margin-left: 1rem;
 }
+
+@media ((max-width: 1024px) and  (min-width: 768px)) {
+  .experiences {
+    padding: 4rem 3rem;
+    gap: 2rem;
+  }
+
+  .experiences span {
+    margin-top: -1.5rem;
+  }
+}
