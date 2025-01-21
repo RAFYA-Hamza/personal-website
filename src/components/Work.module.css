@@ -7,6 +7,14 @@
   padding: 6rem 5rem;
 }
 
+.work ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  margin: 0;
+}
+
 .work span {
   color: var(--gray-600);
   margin-top: -2rem;
@@ -45,6 +53,9 @@
   justify-content: start;
   align-items: start;
   gap: 1.5rem;
+
+  border-radius: 0 12px 12px 0;
+
   background-color: var(--gray-50);
 
   padding: 3rem;

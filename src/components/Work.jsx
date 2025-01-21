@@ -1,13 +1,8 @@
-import project1Img from "../assets/images/project1.png";
-import project2Img from "../assets/images/project2.png";
-import project3Img from "../assets/images/project3.png";
-import project4Img from "../assets/images/project4.png";
-import project5Img from "../assets/images/project5.png";
-
 import HeaderSection from "./UI/HeaderSection";
-import classes from "./Work.module.css";
-
 import WorkCard from "./UI/WorkCard";
+import { PROJECTS } from "../utils/projects";
+
+import classes from "./Work.module.css";
 
 function Work() {
   function handleClick(url) {
@@ -21,69 +16,23 @@ function Work() {
         description="Some of the projects I have worked on:"
       />
 
-      <WorkCard
-        classes={classes}
-        image={project1Img}
-        title="MarketiFy"
-        type="Website"
-        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
-        onShowProject={() =>
-          handleClick("https://rafya-hamza.github.io/marketify-website/")
-        }
-        onShowCodeProject={() =>
-          handleClick("https://github.com/RAFYA-Hamza/marketify-website")
-        }
-      />
-
-      <WorkCard
-        classes={classes}
-        image={project2Img}
-        title="TodoList"
-        type="Website"
-        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
-        onShowProject={() =>
-          handleClick("https://rafya-hamza.github.io/marketify-website/")
-        }
-        onShowCodeProject={() =>
-          handleClick("https://github.com/RAFYA-Hamza/to-do-list")
-        }
-      />
-
-      <WorkCard
-        classes={classes}
-        image={project3Img}
-        title="ClAmazon"
-        type="Website"
-        specificSkills={[0, 1, 2, 12, 13, 14, 15]}
-        onShowProject={() =>
-          handleClick("https://rafya-hamza.github.io/amazon-clone-website/")
-        }
-        onShowCodeProject={() =>
-          handleClick("https://github.com/RAFYA-Hamza/amazon-clone-website")
-        }
-      />
-
-      <WorkCard
-        classes={classes}
-        image={project4Img}
-        title="World Cuisine Explorer"
-        type="Mobile Application"
-        specificSkills={[16, 8, 11, 12, 13]}
-        onShowCodeProject={() =>
-          handleClick("https://github.com/RAFYA-Hamza/meals-app-flutter")
-        }
-      />
-
-      <WorkCard
-        classes={classes}
-        image={project5Img}
-        title="A.Driving App"
-        type="Mobile Application"
-        specificSkills={[16, 8, 11, 9, 10, 12, 13]}
-        onShowCodeProject={() =>
-          handleClick("https://github.com/RAFYA-Hamza/meals-app-flutter")
-        }
-      />
+      <ul>
+        {PROJECTS.map((project) => (
+          <li key={project.id}>
+            <WorkCard
+              classes={classes}
+              image={project.image}
+              title={project.title}
+              type={project.type}
+              specificSkills={project.skills}
+              onShowProject={
+                project.demoLink && (() => handleClick(project.codeLink))
+              }
+              onShowCodeProject={() => handleClick(project.demoLink)}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
