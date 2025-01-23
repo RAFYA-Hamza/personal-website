@@ -90,3 +90,10 @@
     gap: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+}
