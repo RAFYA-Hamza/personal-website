@@ -95,6 +95,8 @@
   .intro {
     flex-direction: column-reverse;
     gap: 3rem;
+
+    padding: 4rem 1rem;
   }
 
   .intro__profile {
@@ -105,18 +107,10 @@
   }
 
   .intro__background {
-    width: unset;
-    height: unset;
+    all: unset;
 
     max-width: 19rem;
     max-height: 100%;
-
-    position: unset;
-    top: 2.5rem;
-    right: 70%;
-    left: 30%;
-
-    z-index: 0;
 
     padding: 0.5rem;
 
@@ -124,14 +118,9 @@
   }
 
   .intro__pic {
-    height: 100%;
+    all: unset;
 
-    max-height: 17.5rem;
-
-    position: unset;
-    top: -2.5rem;
-    right: 3.5rem;
-    z-index: 1;
+    height: 10rem;
     padding: 0.5rem;
 
     background-color: var(--gray-default);
