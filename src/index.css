@@ -217,7 +217,7 @@ img {
   display: block;
 }
 
-@media ((max-width: 1024px) and  (min-width: 768px)) {
+@media (max-width: 1024px) {
   h1 {
     font-size: 48px;
     line-height: 48px;
