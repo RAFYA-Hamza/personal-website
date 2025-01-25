@@ -94,35 +94,38 @@
 @media (max-width: 768px) {
   .intro {
     flex-direction: column-reverse;
+    align-items: center;
     gap: 3rem;
-
-    padding: 4rem 1rem;
   }
 
   .intro__profile {
+    all: unset;
     width: 100%;
-    min-height: 20rem;
-    min-width: unset;
-    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .intro__background {
     all: unset;
+    max-width: 25rem;
+    margin-top: 2rem;
 
-    max-width: 19rem;
-    max-height: 100%;
-
-    padding: 0.5rem;
+    padding: 0 1rem 0rem 1rem;
 
     background-color: var(--gray-200);
   }
 
   .intro__pic {
     all: unset;
+    position: relative;
+    top: -2rem;
+  }
 
-    height: 10rem;
-    padding: 0.5rem;
+  .intro__pic img {
+    width: fit-content;
+    box-sizing: border-box;
 
-    background-color: var(--gray-default);
+    border: 0.5rem solid var(--gray-default);
   }
 }
