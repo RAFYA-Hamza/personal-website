@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    gap: 1rem;
+  }
+
   .about__container {
     flex-direction: column;
   }

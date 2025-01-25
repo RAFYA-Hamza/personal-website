@@ -43,3 +43,18 @@
     gap: 1rem 3rem;
   }
 }
+
+@media (max-width: 768px) {
+  .skills {
+    gap: 1rem;
+  }
+
+  .skills span {
+    margin-top: 0rem;
+    text-align: center;
+  }
+
+  .skills ul {
+    gap: 1.5rem 2.5rem;
+  }
+}
