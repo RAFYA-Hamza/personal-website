@@ -90,3 +90,9 @@ h2 {
     height: 2.5rem;
   }
 }
+
+@media (max-width: 678px) {
+  .contact {
+    padding: 4rem 1rem;
+  }
+}

@@ -58,3 +58,18 @@
     gap: 1.5rem 2.5rem;
   }
 }
+
+@media (max-width: 678px) {
+  .skills {
+    padding: 4rem 1rem;
+  }
+
+  .skills svg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .skills ul {
+    gap: 1.5rem;
+  }
+}

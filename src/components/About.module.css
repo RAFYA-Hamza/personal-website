@@ -125,3 +125,13 @@
     border: 0.5rem solid var(--gray-default);
   }
 }
+
+@media (max-width: 678px) {
+  .about {
+    padding: 4rem 1rem;
+  }
+
+  .about__container {
+    gap: 3rem;
+  }
+}
