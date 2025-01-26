@@ -30,6 +30,7 @@ function ContactMe({ onClickButton }) {
       <div className={classes.contact__content}>
         <div className={classes["contact__content-email"]}>
           <svg
+            className={classes.icons}
             width="64px"
             height="64px"
             viewBox="0 0 24 24"
@@ -62,6 +63,7 @@ function ContactMe({ onClickButton }) {
 
         <div className={classes["contact__content-phone"]}>
           <svg
+            className={classes.icons}
             width="64px"
             height="64px"
             viewBox="0 0 24 24"
