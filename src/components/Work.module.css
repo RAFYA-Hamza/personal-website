@@ -124,3 +124,25 @@
     width: 1.25rem;
   }
 }
+
+@media (max-width: 768px) {
+  .work {
+    gap: 1rem;
+  }
+
+  .work span {
+    margin-top: 0;
+  }
+
+  .work-card {
+    flex-direction: column;
+  }
+
+  .work-card__image {
+    border-radius: 12px 12px 0 0;
+  }
+
+  .work-card__content {
+    border-radius: 0 0 12px 12px;
+  }
+}
