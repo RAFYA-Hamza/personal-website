@@ -8,13 +8,12 @@ export const PROJECTS = [
   {
     id: 1,
     image: project1Img,
-    title: "ClAmazon",
+    title: "MarketiFy",
     type: "Website",
     skills: [0, 1, 2, 12, 13, 14, 15],
-    demoLink: "https://rafya-hamza.github.io/amazon-clone-website/",
-    codeLink: "https://github.com/RAFYA-Hamza/amazon-clone-website",
+    demoLink: "https://rafya-hamza.github.io/marketify-website/",
+    codeLink: "https://github.com/RAFYA-Hamza/marketify-website",
   },
-
   {
     id: 2,
     image: project2Img,
@@ -27,11 +26,11 @@ export const PROJECTS = [
   {
     id: 3,
     image: project3Img,
-    title: "MarketiFy",
+    title: "ClAmazon",
     type: "Website",
     skills: [0, 1, 2, 12, 13, 14, 15],
-    demoLink: "https://rafya-hamza.github.io/marketify-website/",
-    codeLink: "https://github.com/RAFYA-Hamza/marketify-website",
+    demoLink: "https://rafya-hamza.github.io/amazon-clone-website/",
+    codeLink: "https://github.com/RAFYA-Hamza/amazon-clone-website",
   },
   {
     id: 4,
