@@ -134,4 +134,9 @@
   .about__container {
     gap: 3rem;
   }
+
+  .about__content-footer {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }

@@ -12,7 +12,6 @@ import { useEffect } from "react";
 
 function App() {
   const savedTheme = localStorage.getItem("theme") || "light";
-  console.log(savedTheme);
 
   const [theme, setTheme] = useState(savedTheme);
 
