@@ -81,7 +81,7 @@
   }
 
   .header button {
-    align-self: center;
+    align-self: flex-end;
   }
 
   .header ul {
