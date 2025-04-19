@@ -23,20 +23,9 @@ function Experiences() {
         date="Oct 2023 - Present"
       >
         <p className="body2">
-          EE Automotive Architecture Designer for the REPAS function (REPAS =
-          Réveiller et Endormir les UCE et les réseaux et Piloter les
-          Alimentations du Système):
-        </p>
-        <p className="body2">
-          • Allocate functions to the different EE Components
-        </p>
-        <p className="body2">
-          • Allocate functional flows to the multiplexed networks and wired
-          interfaces allowing communication between the EE components
-        </p>
-        <p className="body2">
-          • Conduct technical reviews to validate the deliverable with the
-          client.
+          Functional Designer and Electronic Electrical Architect for the SWEDEN
+          function (Sleep and wakeup of Electrical Devices and Electronic
+          Networks)
         </p>
       </Experience>
 
@@ -49,23 +38,7 @@ function Experiences() {
       >
         <p className="body2">
           Development of a Mobile Application representing a "cockpit" to
-          remotely control and supervise an autonomous vehicle:
-        </p>
-        <p className="body2">
-          • Establish communication between the Mobile Application and the ECU
-          (MuxLab) using Socket.io
-        </p>
-        <p className="body2">
-          • Development of an interface that ensures interactions between the
-          vehicle and the driver.
-        </p>
-        <p className="body2">
-          • Development of an interface to visualize in real time the perception
-          of the camera using Websocket
-        </p>
-        <p className="body2">
-          • Development of an interface which makes it possible to locate the
-          vehicle.
+          remotely control and supervise an autonomous vehicle.
         </p>
       </Experience>
 

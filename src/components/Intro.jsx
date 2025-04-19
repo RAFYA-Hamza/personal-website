@@ -14,10 +14,11 @@ function Intro({ onClickButton }) {
         <div className={classes.intro__content}>
           <h1>Hi, I'm Hamza👋</h1>
           <p className="body2">
-            I'm an aspiring Full-Stack Developer (React.js & Node.js) with a
-            focus on creating exceptional digital experiences that are fast,
-            accessible, visually engaging, and fully responsive. I really enjoy
-            learning new languages and frameworks with a deep passion for coding
+            I'm a Front-End Developer (React.js & Next.js) with a background in
+            Embedded Systems Engineering, passionate about crafting fast,
+            accessible, and visually engaging web applications. My experience
+            spans e-commerce platforms, digital agency websites, and intuitive
+            UI/UX—fueled by a relentless curiosity for new technologies.
           </p>
         </div>
         <ul className={classes.intro__infos}>
@@ -61,7 +62,11 @@ function Intro({ onClickButton }) {
           >
             <GithubIcon />
           </IconButton>
-          <IconButton onClick={() => onClickButton("https://x.com/")}>
+          <IconButton
+            onClick={() =>
+              onClickButton("https://www.instagram.com/ha_mza.rf/")
+            }
+          >
             <TwitterIcon />
           </IconButton>
           <IconButton
