@@ -12,7 +12,13 @@ function Intro({ onClickButton }) {
     <section className={classes.intro}>
       <div className={classes.intro__container}>
         <div className={classes.intro__content}>
-          <h1>Hi, I'm Hamza👋</h1>
+          <span>
+            <h1>Hi, I'm Hamza </h1>
+            <img
+              src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png"
+              alt="Hello emojis"
+            />
+          </span>
           <p className="body2">
             I'm a Front-End Developer (React.js & Next.js) with a background in
             Embedded Systems Engineering, passionate about crafting fast,

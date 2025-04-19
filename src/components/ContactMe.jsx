@@ -101,7 +101,11 @@ function ContactMe({ onClickButton }) {
           >
             <GithubIcon />
           </IconButton>
-          <IconButton onClick={() => onClickButton("https://x.com/")}>
+          <IconButton
+            onClick={() =>
+              onClickButton("https://www.instagram.com/ha_mza.rf/")
+            }
+          >
             <TwitterIcon />
           </IconButton>
           <IconButton

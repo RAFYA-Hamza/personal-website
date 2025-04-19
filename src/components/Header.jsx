@@ -3,6 +3,8 @@ import classes from "./Header.module.css";
 import ThemeIcon from "./icons/ThemeIcon";
 import IconButton from "./UI/IconButton";
 
+import file from "../docs/FE_CV_RAFYA_Hamza.pdf";
+
 const classLink = "body2 medium link";
 
 function Header({ theme, onSelect }) {
@@ -10,6 +12,16 @@ function Header({ theme, onSelect }) {
 
   function handleClick() {
     setIsOpenMenu(!isOpenMenu);
+  }
+
+  function handleDownload() {
+    console.log("click");
+    const link = document.createElement("a");
+    link.href = file;
+    link.download = "FE_CV_RAFYA_Hamza.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
@@ -42,7 +54,9 @@ function Header({ theme, onSelect }) {
           <IconButton onClick={onSelect}>
             <ThemeIcon theme={theme} />
           </IconButton>
-          <button className="button">Download CV</button>
+          <button onClick={handleDownload} className="button">
+            Download CV
+          </button>
         </div>
       </nav>
 
@@ -128,7 +142,9 @@ function Header({ theme, onSelect }) {
               <IconButton onClick={onSelect}>
                 <ThemeIcon theme={theme} />
               </IconButton>
-              <button className="button">Download CV</button>
+              <button onClick={handleDownload} className="button">
+                Download CV
+              </button>
             </div>
           </>
         ) : undefined}

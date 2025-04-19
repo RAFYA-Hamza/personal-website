@@ -22,9 +22,9 @@
   gap: 3rem;
 }
 
-.header button:first-of-type {
+/* .header button:first-of-type {
   display: none;
-}
+} */
 
 .header ul {
   display: flex;
@@ -81,7 +81,7 @@
   }
 
   .header button {
-    align-self: end;
+    align-self: center;
   }
 
   .header ul {

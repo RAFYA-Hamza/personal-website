@@ -17,6 +17,17 @@
   gap: 0.5rem;
 }
 
+.intro__content span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.intro__content img {
+  height: 4rem;
+  width: 4rem;
+}
+
 .intro__infos {
   display: flex;
   flex-direction: column;
@@ -128,10 +139,24 @@
 
     border: 0.5rem solid var(--gray-default);
   }
+
+  .intro__content span {
+    gap: 0.5rem;
+  }
+
+  .intro__content img {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 
 @media (max-width: 678px) {
   .intro {
     padding: 4rem 1rem;
+  }
+
+  .intro__content img {
+    height: 2rem;
+    width: 2rem;
   }
 }
